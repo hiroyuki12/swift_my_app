@@ -7,14 +7,13 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct ContentView: View {
     var body: some View {
-        VStack{
+        List{
             Text("Hello, World!")
             Button(action: {
-//                print("Button Tapped")
-//                let url: URL = URL(string: "http://qiita.com/api/v2/items")!  // http error
                 let url: URL = URL(string:  "https://api.github.com/repositories/31792824/issues")!
                 let task: URLSessionTask = URLSession.shared.dataTask(with: url, completionHandler: {data, response, error in
                     do{
@@ -24,13 +23,8 @@ struct ContentView: View {
                             let next = roop as! NSDictionary
                             print(next["title"] as! String) // タイトル表示
                         }
-//                        print("json!!!!!!!!")
-//                        print(json)
                     }
                     catch{
-//                    print("data: \(String(describing: data))")
-//                    print("response: \(String(describing: response))")
-//                    print("error: \(String(describing: error))")
                     }
                 })
                 task.resume() //実行する
