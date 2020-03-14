@@ -11,3 +11,6 @@ https://qiita.com/peromasamune/items/f5b72c4dbd33b5019611
 
 JSONSerialization.jsonObjectの引数はwithのみ
 https://www.sejuku.net/blog/34776
+
+データを読み込んでみる！SwiftのJSONの使い方【初心者向け】  (JSON title表示)
+https://techacademy.jp/magazine/15272
