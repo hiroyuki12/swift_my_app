@@ -19,8 +19,13 @@ struct ContentView: View {
                 let task: URLSessionTask = URLSession.shared.dataTask(with: url, completionHandler: {data, response, error in
                     do{
                         let json = try JSONSerialization.jsonObject(with: data!)
-                        print("json!!!!!!!!")
-                        print(json)
+                        let top = json as! NSArray // トップレベルが配列
+                        for roop in top {
+                            let next = roop as! NSDictionary
+                            print(next["title"] as! String) // タイトル表示
+                        }
+//                        print("json!!!!!!!!")
+//                        print(json)
                     }
                     catch{
 //                    print("data: \(String(describing: data))")
