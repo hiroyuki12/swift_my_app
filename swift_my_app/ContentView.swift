@@ -14,6 +14,7 @@ struct ContentView: View {
         Image("lake")
             .resizable()
             .scaledToFit()
+            .clipShape(Circle())
         // List{
         //     Text("Hello, World!")
         //     Button(action: {
