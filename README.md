@@ -6,3 +6,6 @@ https://fukatsu.tech/api-tableview#api-2
 【swift】XcodeでiOSアプリのhttp通信を許可する方法
 https://fukatsu.tech/permit-http-ios
 
+iOS9のWebviewでNSURLErrorDomainとなる場合の対処法(ATS)
+https://qiita.com/peromasamune/items/f5b72c4dbd33b5019611
+
