@@ -31,6 +31,9 @@ struct ContentView: View {
                 NavigationLink(destination: MyPicker()) {
                     Text("NavigationLink Picker")
                 }
+                NavigationLink(destination: MyButton()) {
+                    Text("NavigationLink Button")
+                }
             }
         }
 //        NavigationView {
