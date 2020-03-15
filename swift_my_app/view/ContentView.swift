@@ -25,6 +25,9 @@ struct ContentView: View {
                 NavigationLink(destination: MyTabView()) {
                     Text("NavigationLink TabView")
                 }
+                NavigationLink(destination: MyList()) {
+                    Text("NavigationLink List")
+                }
             }
         }
 //        NavigationView {
