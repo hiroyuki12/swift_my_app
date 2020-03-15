@@ -12,8 +12,8 @@ import CoreLocation
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink(destination: ContentView2()) {
-                Text("Show ContentView2")
+            NavigationLink(destination: SubContentView()) {
+                Text("Show SubContentView")
             }
         }
         
@@ -63,5 +63,13 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+
+// 遷移先
+struct SubContentView: View {
+    var body: some View {
+        Text("SubContentView")
     }
 }
