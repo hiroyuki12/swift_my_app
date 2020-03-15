@@ -10,10 +10,12 @@ import SwiftUI
 import CoreLocation
 
 struct ContentView: View {
+    
     var body: some View {
+        
         NavigationView {
-            NavigationLink(destination: SubContentView()) {
-                Text("Show SubContentView")
+            NavigationLink(destination: MyActionSheet()) {
+                Text("NavigationLink ActionSheet")
             }
         }
         
