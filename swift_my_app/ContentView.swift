@@ -11,16 +11,21 @@ import CoreLocation
 
 struct ContentView: View {
     var body: some View {
-
         NavigationView {
-            Text("Hello World!")
-            // .navigationBarTitle(Text("Title"))
-            .navigationBarItems(trailing:
-                NavigationLink(destination: ContentView2()) {
-                    Text("Show ContentView2")
-                }
-            )
+            NavigationLink(destination: ContentView2()) {
+                Text("Show ContentView2")
+            }
         }
+        
+//        NavigationView {
+//            Text("Hello World!")
+//            // .navigationBarTitle(Text("Title"))
+//            .navigationBarItems(trailing:
+//                NavigationLink(destination: ContentView2()) {
+//                    Text("Show ContentView2")
+//                }
+//            )
+//        }
 
         // NavigationButton(destination: ContentView2()) {
         //     Text("Hello, World!")
