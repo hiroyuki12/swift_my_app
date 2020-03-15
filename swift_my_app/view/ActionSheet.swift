@@ -10,11 +10,8 @@ import SwiftUI
 import CoreLocation
 
 struct MyActionSheet: View {
-    
     @State var isShown = false
-    
     var body: some View {
-        
         Button(action: {
             self.isShown = true
         }) {
@@ -28,12 +25,11 @@ struct MyActionSheet: View {
                           .cancel()]
             )
         })
-        
     }
 }
 
-struct MyActionSheet_Previews: PreviewProvider {
-    static var previews: some View {
-        MyActionSheet()
-    }
-}
+//struct MyActionSheet_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MyActionSheet()
+//    }
+//}

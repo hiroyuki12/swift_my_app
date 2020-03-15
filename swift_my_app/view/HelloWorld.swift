@@ -11,12 +11,12 @@ import CoreLocation
 
 struct HelloWorld: View {
     var body: some View {
-            Text("Hello World!")
+        Text("Hello World!")
     }
 }
 
-struct ContentView2_Previews: PreviewProvider {
-    static var previews: some View {
-        HelloWorld()
-    }
-}
+//struct HelloWorld_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HelloWorld()
+//    }
+//}
