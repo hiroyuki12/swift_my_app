@@ -34,6 +34,9 @@ struct ContentView: View {
                 NavigationLink(destination: MyButton()) {
                     Text("NavigationLink Button")
                 }
+                NavigationLink(destination: SFSymbols()) {
+                    Text("NavigationLink SFSymbols")
+                }
             }
         }
 //        NavigationView {
