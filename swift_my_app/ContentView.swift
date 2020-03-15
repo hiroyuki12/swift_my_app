@@ -10,14 +10,22 @@ import SwiftUI
 import CoreLocation
 
 struct ContentView: View {
-    
     var body: some View {
-        
         NavigationView {
-            NavigationLink(destination: MyActionSheet()) {
-                Text("NavigationLink ActionSheet")
+            VStack{
+                NavigationLink(destination: MyActionSheet()) {
+                    Text("NavigationLink ActionSheet")
+                }
+                NavigationLink(destination: MyAlert()) {
+                    Text("NavigationLink Alert")
+                }
             }
         }
+//        NavigationView {
+//            NavigationLink(destination: MyAlert()) {
+//                Text("NavigationLink Alert")
+//            }
+//        }
         
 //        NavigationView {
 //            Text("Hello World!")
