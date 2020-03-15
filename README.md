@@ -26,3 +26,6 @@ https://stackoverflow.com/questions/56606053/swiftui-navigationbutton-within-nav
 
 NavigationLink, ActionSheet
 https://qiita.com/H_Crane/items/eb847ca7fb7a0b9e8073
+
+Alert
+https://swiswiswift.com/2019-12-20/
