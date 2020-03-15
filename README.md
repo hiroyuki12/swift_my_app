@@ -38,3 +38,6 @@ https://swiswiswift.com/2019-11-13/
 
 Picker
 https://swiswiswift.com/2020-01-12/
+
+List, Navigation
+https://qiita.com/koogawa/items/b91f83e0075dd5a4ce5f
