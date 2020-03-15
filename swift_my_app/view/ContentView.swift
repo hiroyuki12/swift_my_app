@@ -22,6 +22,9 @@ struct ContentView: View {
                 NavigationLink(destination: MyAlert()) {
                     Text("NavigationLink Alert")
                 }
+                NavigationLink(destination: MyTabView()) {
+                    Text("NavigationLink TabView")
+                }
             }
         }
 //        NavigationView {
