@@ -11,10 +11,26 @@ import CoreLocation
 
 struct ContentView: View {
     var body: some View {
-        Image("lake")
-            .resizable()
-            .scaledToFit()
-            .clipShape(Circle())
+
+        NavigationView {
+            Text("Hello World!")
+            // .navigationBarTitle(Text("Title"))
+            .navigationBarItems(trailing:
+                NavigationLink(destination: ContentView2()) {
+                    Text("Show ContentView2")
+                }
+            )
+        }
+
+        // NavigationButton(destination: ContentView2()) {
+        //     Text("Hello, World!")
+        // }
+
+        // Image("lake")
+        //     .resizable()
+        //     .scaledToFit()
+        //     .clipShape(Circle())
+
         // List{
         //     Text("Hello, World!")
         //     Button(action: {

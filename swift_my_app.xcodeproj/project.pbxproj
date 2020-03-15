@@ -15,6 +15,7 @@
 		2E34948C241D108F00F45C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E34948A241D108F00F45C8F /* LaunchScreen.storyboard */; };
 		2E349497241D108F00F45C8F /* swift_my_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E349496241D108F00F45C8F /* swift_my_appTests.swift */; };
 		2E3494A2241D108F00F45C8F /* swift_my_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3494A1241D108F00F45C8F /* swift_my_appUITests.swift */; };
+		2E7B3B44241DA3D30051A075 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B3B43241DA3D30051A075 /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2E34949D241D108F00F45C8F /* swift_my_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_my_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3494A1241D108F00F45C8F /* swift_my_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_my_appUITests.swift; sourceTree = "<group>"; };
 		2E3494A3241D108F00F45C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7B3B43241DA3D30051A075 /* ContentView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2E34947F241D108A00F45C8F /* AppDelegate.swift */,
 				2E349481241D108A00F45C8F /* SceneDelegate.swift */,
 				2E349483241D108A00F45C8F /* ContentView.swift */,
+				2E7B3B43241DA3D30051A075 /* ContentView2.swift */,
 				2E349485241D108F00F45C8F /* Assets.xcassets */,
 				2E34948A241D108F00F45C8F /* LaunchScreen.storyboard */,
 				2E34948D241D108F00F45C8F /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E349480241D108A00F45C8F /* AppDelegate.swift in Sources */,
+				2E7B3B44241DA3D30051A075 /* ContentView2.swift in Sources */,
 				2E349482241D108A00F45C8F /* SceneDelegate.swift in Sources */,
 				2E349484241D108A00F45C8F /* ContentView.swift in Sources */,
 			);
