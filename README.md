@@ -24,5 +24,5 @@ https://www.yururiwork.net/?p=307
 NavigationLink (navigationBarItems)
 https://stackoverflow.com/questions/56606053/swiftui-navigationbutton-within-navigationbaritems
 
-NavigationLink
+NavigationLink, ActionSheet
 https://qiita.com/H_Crane/items/eb847ca7fb7a0b9e8073
