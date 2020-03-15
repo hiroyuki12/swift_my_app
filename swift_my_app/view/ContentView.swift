@@ -28,6 +28,9 @@ struct ContentView: View {
                 NavigationLink(destination: MyList()) {
                     Text("NavigationLink List")
                 }
+                NavigationLink(destination: MyPicker()) {
+                    Text("NavigationLink Picker")
+                }
             }
         }
 //        NavigationView {
