@@ -32,3 +32,6 @@ https://swiswiswift.com/2019-12-20/
 
 TabView
 https://swiswiswift.com/2019-11-21/
+
+List
+https://swiswiswift.com/2019-11-13/
