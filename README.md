@@ -47,3 +47,6 @@ https://i-app-tec.com/swiftui/swiftui-button.html
 
 SF Symbols
 https://note.com/dngri/n/n48ec4a690590
+
+WebView
+https://qiita.com/wiii_na/items/36123cf901839a8038e2
