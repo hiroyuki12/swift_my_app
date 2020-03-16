@@ -51,3 +51,7 @@ https://note.com/dngri/n/n48ec4a690590
 WebView
 https://qiita.com/KanikaniYou/items/a52f4fb2b97fc87cc36a
 https://qiita.com/wiii_na/items/36123cf901839a8038e2
+
+Flutter Issues
+【swift入門】apiを叩いてTableViewに表示させる
+https://fukatsu.tech/api-tableview#api-2
