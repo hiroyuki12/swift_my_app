@@ -13,6 +13,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
+                NavigationLink(destination: MyImage()) {
+                    Text("NavigationLink Image")
+                }
                 NavigationLink(destination: HelloWorld()) {
                     Text("NavigationLink HelloWorld")
                 }
@@ -40,6 +43,7 @@ struct ContentView: View {
                 NavigationLink(destination: MyWebView()) {
                     Text("NavigationLink WebView")
                 }
+                
             }
         }
 //        NavigationView {
