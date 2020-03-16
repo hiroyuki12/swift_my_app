@@ -13,36 +13,39 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
+                NavigationLink(destination: FlutterIssues()) {
+                    Text("NavigationLink Flutter Issues")
+                }
                 NavigationLink(destination: MyImage()) {
                     Text("NavigationLink Image")
                 }
                 NavigationLink(destination: HelloWorld()) {
                     Text("NavigationLink HelloWorld")
                 }
-                NavigationLink(destination: MyActionSheet()) {
-                    Text("NavigationLink ActionSheet")
-                }
-                NavigationLink(destination: MyAlert()) {
-                    Text("NavigationLink Alert")
-                }
-                NavigationLink(destination: MyTabView()) {
-                    Text("NavigationLink TabView")
-                }
-                NavigationLink(destination: MyList()) {
-                    Text("NavigationLink List")
-                }
-                NavigationLink(destination: MyPicker()) {
-                    Text("NavigationLink Picker")
-                }
-                NavigationLink(destination: MyButton()) {
-                    Text("NavigationLink Button")
-                }
-                NavigationLink(destination: SFSymbols()) {
-                    Text("NavigationLink SFSymbols")
-                }
-                NavigationLink(destination: MyWebView()) {
-                    Text("NavigationLink WebView")
-                }
+//                NavigationLink(destination: MyActionSheet()) {
+//                    Text("NavigationLink ActionSheet")
+//                }
+//                NavigationLink(destination: MyAlert()) {
+//                    Text("NavigationLink Alert")
+//                }
+//                NavigationLink(destination: MyTabView()) {
+//                    Text("NavigationLink TabView")
+//                }
+//                NavigationLink(destination: MyList()) {
+//                    Text("NavigationLink List")
+//                }
+//                NavigationLink(destination: MyPicker()) {
+//                    Text("NavigationLink Picker")
+//                }
+//                NavigationLink(destination: MyButton()) {
+//                    Text("NavigationLink Button")
+//                }
+//                NavigationLink(destination: SFSymbols()) {
+//                    Text("NavigationLink SFSymbols")
+//                }
+//                NavigationLink(destination: MyWebView()) {
+//                    Text("NavigationLink WebView")
+//                }
                 
             }
         }
