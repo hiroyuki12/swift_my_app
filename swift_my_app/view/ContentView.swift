@@ -67,7 +67,17 @@ struct ContentView: View {
                     NavigationLink(destination: MyGeometryReader()) {
                         Text("NavigationLink GeometryReader")
                     }
+
+                    
                 }
+
+               Group {
+
+                   NavigationLink(destination: MyCordable()) {
+                       Text("NavigationLink Cordable")
+                   }
+
+               }
                 
                 
             }
