@@ -42,26 +42,31 @@ struct ContentView: View {
                     }
                 }
                 
-                NavigationLink(destination: MyButton()) {
-                    Text("NavigationLink Button")
-                }
-                NavigationLink(destination: SFSymbols()) {
-                    Text("NavigationLink SFSymbols")
-                }
-                NavigationLink(destination: MyWebView()) {
-                    Text("NavigationLink WebView")
-                }
-                NavigationLink(destination: TopListView()) {
-                    Text("NavigationLink Top ListView")
-                }
-                NavigationLink(destination: ModalView()) {
-                    Text("NavigationLink Modal View")
-                }
-                NavigationLink(destination: MyMap()) {
-                    Text("NavigationLink Map")
-                }
-                NavigationLink(destination: DarkTheme()) {
-                    Text("NavigationLink DarkTheme")
+                Group {
+                    NavigationLink(destination: MyButton()) {
+                        Text("NavigationLink Button")
+                    }
+                    NavigationLink(destination: SFSymbols()) {
+                        Text("NavigationLink SFSymbols")
+                    }
+                    NavigationLink(destination: MyWebView()) {
+                        Text("NavigationLink WebView")
+                    }
+                    NavigationLink(destination: TopListView()) {
+                        Text("NavigationLink Top ListView")
+                    }
+                    NavigationLink(destination: ModalView()) {
+                        Text("NavigationLink Modal View")
+                    }
+                    NavigationLink(destination: MyMap()) {
+                        Text("NavigationLink Map")
+                    }
+                    NavigationLink(destination: DarkTheme()) {
+                        Text("NavigationLink DarkTheme")
+                    }
+                    NavigationLink(destination: MyGeometryReader()) {
+                        Text("NavigationLink GeometryReader")
+                    }
                 }
                 
                 

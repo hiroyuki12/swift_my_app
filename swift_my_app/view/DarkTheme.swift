@@ -13,11 +13,14 @@ struct DarkTheme: View {
     
     //1. 現在の設定を取得
     @Environment(\.colorScheme) var colorScheme: ColorScheme
-
+//    @Environment(\.locale) var locale: Locale
+    
     var body: some View {
-        Text("Hello World!")
-        //2. 定義した変数のcolorSchemeを使って調べる(ダークテーマの場合は ColorScheme.dark)
-        .foregroundColor(colorScheme == ColorScheme.light ? .black : .red)
+        VStack{
+            Text("Hello World!")
+            //2. 定義した変数のcolorSchemeを使って調べる(ダークテーマの場合は ColorScheme.dark)
+            .foregroundColor(colorScheme == ColorScheme.light ? .black : .red)
+        }
     }
 }
 
