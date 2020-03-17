@@ -79,3 +79,6 @@ https://note.com/dngri/n/n6e61dc347ba0
 
 Swiftで行こう！--SwiftUIもっと！7  Form
 https://note.com/dngri/n/n6d169a53529e
+
+SwiftUIのリストの作り方。  Section
+https://note.com/dngri/n/nb243dbd5114a?magazine_key=m39ffd3b6c431
