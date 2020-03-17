@@ -58,3 +58,6 @@ https://fukatsu.tech/api-tableview#api-2
 
 Modal View
 https://www.yururiwork.net/?p=344
+
+【SwiftUI】Viewを11個以上並べる方法 Group
+https://capibara1969.com/1621/
