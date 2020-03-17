@@ -55,3 +55,6 @@ https://qiita.com/wiii_na/items/36123cf901839a8038e2
 Flutter Issues
 【swift入門】apiを叩いてTableViewに表示させる
 https://fukatsu.tech/api-tableview#api-2
+
+Modal View
+https://www.yururiwork.net/?p=344
