@@ -76,6 +76,7 @@ https://qiita.com/masa7351/items/0567969f93cc88d714ac
 
 Swiftで行こう！--SwiftUI:CodableでJsonを。
 https://note.com/dngri/n/n6e61dc347ba0
+https://note.com/dngri/n/n48b8a3a328b4?magazine_key=m39ffd3b6c431
 
 Swiftで行こう！--SwiftUIもっと！7  Form
 https://note.com/dngri/n/n6d169a53529e
