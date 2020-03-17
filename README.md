@@ -63,3 +63,6 @@ https://www.yururiwork.net/?p=344
 
 【SwiftUI】Viewを11個以上並べる方法 Group
 https://capibara1969.com/1621/
+
+Map
+https://qiita.com/mtzack/items/1b216646161afd11a6ec
