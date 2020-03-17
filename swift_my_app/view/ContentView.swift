@@ -39,23 +39,26 @@ struct ContentView: View {
                         Text("NavigationLink Picker")
                     }
                 }
-                Group {
-                    NavigationLink(destination: MyButton()) {
-                        Text("NavigationLink Button")
-                    }
-                    NavigationLink(destination: SFSymbols()) {
-                        Text("NavigationLink SFSymbols")
-                    }
-                    NavigationLink(destination: MyWebView()) {
-                        Text("NavigationLink WebView")
-                    }
-                    NavigationLink(destination: TopListView()) {
-                        Text("NavigationLink Top ListView")
-                    }
-                    NavigationLink(destination: ModalView()) {
-                        Text("NavigationLink Modal View")
-                    }
+                
+                NavigationLink(destination: MyButton()) {
+                    Text("NavigationLink Button")
                 }
+                NavigationLink(destination: SFSymbols()) {
+                    Text("NavigationLink SFSymbols")
+                }
+                NavigationLink(destination: MyWebView()) {
+                    Text("NavigationLink WebView")
+                }
+                NavigationLink(destination: TopListView()) {
+                    Text("NavigationLink Top ListView")
+                }
+                NavigationLink(destination: ModalView()) {
+                    Text("NavigationLink Modal View")
+                }
+                NavigationLink(destination: MyMap()) {
+                    Text("NavigationLink Map")
+                }
+                
                 
             }
         }
@@ -121,3 +124,4 @@ struct SubContentView: View {
         Text("SubContentView")
     }
 }
+

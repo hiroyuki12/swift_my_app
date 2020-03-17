@@ -19,6 +19,7 @@
 		2E2EBF9F241FB70A007780C0 /* FlutterIssues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBF9E241FB70A007780C0 /* FlutterIssues.swift */; };
 		2E2EBFA124210408007780C0 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFA024210407007780C0 /* TopListView.swift */; };
 		2E2EBFA3242104B3007780C0 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFA2242104B3007780C0 /* ModalView.swift */; };
+		2E2EBFA924210E36007780C0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFA824210E36007780C0 /* Map.swift */; };
 		2E349480241D108A00F45C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E34947F241D108A00F45C8F /* AppDelegate.swift */; };
 		2E349482241D108A00F45C8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E349481241D108A00F45C8F /* SceneDelegate.swift */; };
 		2E349484241D108A00F45C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E349483241D108A00F45C8F /* ContentView.swift */; };
@@ -60,6 +61,7 @@
 		2E2EBF9E241FB70A007780C0 /* FlutterIssues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterIssues.swift; sourceTree = "<group>"; };
 		2E2EBFA024210407007780C0 /* TopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
 		2E2EBFA2242104B3007780C0 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		2E2EBFA824210E36007780C0 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		2E34947C241D108A00F45C8F /* swift_my_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_my_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E34947F241D108A00F45C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E349481241D108A00F45C8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				2E7B3B43241DA3D30051A075 /* HelloWorld.swift */,
 				2E2EBF9C241FB661007780C0 /* Image.swift */,
 				2E2EBF92241DB13C007780C0 /* List.swift */,
+				2E2EBFA824210E36007780C0 /* Map.swift */,
 				2E2EBFA2242104B3007780C0 /* ModalView.swift */,
 				2E2EBF96241DB300007780C0 /* Picker.swift */,
 				2E2EBF9E241FB70A007780C0 /* FlutterIssues.swift */,
@@ -318,6 +321,7 @@
 				2E2EBF93241DB13C007780C0 /* List.swift in Sources */,
 				2E2EBFA3242104B3007780C0 /* ModalView.swift in Sources */,
 				2E349480241D108A00F45C8F /* AppDelegate.swift in Sources */,
+				2E2EBFA924210E36007780C0 /* Map.swift in Sources */,
 				2E2EBF99241DB5F4007780C0 /* SFSymbols.swift in Sources */,
 				2E2EBF97241DB300007780C0 /* Picker.swift in Sources */,
 				2E7B3B44241DA3D30051A075 /* HelloWorld.swift in Sources */,
