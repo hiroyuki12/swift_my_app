@@ -13,6 +13,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
+                NavigationLink(destination: ModalView()) {
+                    Text("NavigationLink Modal View")
+                }
                 NavigationLink(destination: TopListView()) {
                     Text("NavigationLink Top ListView")
                 }
