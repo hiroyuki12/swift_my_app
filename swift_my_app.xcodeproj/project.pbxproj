@@ -20,6 +20,7 @@
 		2E2EBFA124210408007780C0 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFA024210407007780C0 /* TopListView.swift */; };
 		2E2EBFA3242104B3007780C0 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFA2242104B3007780C0 /* ModalView.swift */; };
 		2E2EBFA924210E36007780C0 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFA824210E36007780C0 /* Map.swift */; };
+		2E2EBFAB242117F2007780C0 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EBFAA242117F2007780C0 /* DarkTheme.swift */; };
 		2E349480241D108A00F45C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E34947F241D108A00F45C8F /* AppDelegate.swift */; };
 		2E349482241D108A00F45C8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E349481241D108A00F45C8F /* SceneDelegate.swift */; };
 		2E349484241D108A00F45C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E349483241D108A00F45C8F /* ContentView.swift */; };
@@ -62,6 +63,7 @@
 		2E2EBFA024210407007780C0 /* TopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
 		2E2EBFA2242104B3007780C0 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		2E2EBFA824210E36007780C0 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2E2EBFAA242117F2007780C0 /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		2E34947C241D108A00F45C8F /* swift_my_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_my_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E34947F241D108A00F45C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E349481241D108A00F45C8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		2E2EBF8B241DAA1D007780C0 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				2E2EBFAA242117F2007780C0 /* DarkTheme.swift */,
 				2E349483241D108A00F45C8F /* ContentView.swift */,
 				2E2EBF8C241DAA3E007780C0 /* ActionSheet.swift */,
 				2E2EBF8E241DAC51007780C0 /* Alert.swift */,
@@ -330,6 +333,7 @@
 				2E349482241D108A00F45C8F /* SceneDelegate.swift in Sources */,
 				2E2EBF91241DB010007780C0 /* TabView.swift in Sources */,
 				2E2EBF8D241DAA3E007780C0 /* ActionSheet.swift in Sources */,
+				2E2EBFAB242117F2007780C0 /* DarkTheme.swift in Sources */,
 				2E2EBF9B241FB2D4007780C0 /* WebView.swift in Sources */,
 				2E2EBF95241DB236007780C0 /* Button.swift in Sources */,
 				2E2EBF9F241FB70A007780C0 /* FlutterIssues.swift in Sources */,

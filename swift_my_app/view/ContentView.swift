@@ -10,10 +10,12 @@ import SwiftUI
 import CoreLocation
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationView {
             VStack{
                 Group {
+                    
                     NavigationLink(destination: FlutterIssues()) {
                         Text("NavigationLink Flutter Issues")
                     }
@@ -57,6 +59,9 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: MyMap()) {
                     Text("NavigationLink Map")
+                }
+                NavigationLink(destination: DarkTheme()) {
+                    Text("NavigationLink DarkTheme")
                 }
                 
                 
