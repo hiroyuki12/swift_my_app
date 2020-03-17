@@ -13,6 +13,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
+                NavigationLink(destination: TopListView()) {
+                    Text("NavigationLink Top ListView")
+                }
                 NavigationLink(destination: FlutterIssues()) {
                     Text("NavigationLink Flutter Issues")
                 }
