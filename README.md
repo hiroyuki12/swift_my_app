@@ -70,3 +70,9 @@ https://qiita.com/mtzack/items/1b216646161afd11a6ec
 DarkTheme
 https://qiita.com/tabe_unity/items/e9cc1aa55608eecbb7bd
 http://www.366service.com/jp/qa/538c0de61d3bc3c32383a0c74bfcc77e
+
+SwiftUIの肝となるGeometryReaderについて理解を深める
+https://qiita.com/masa7351/items/0567969f93cc88d714ac
+
+Swiftで行こう！--SwiftUI:CodableでJsonを。
+https://note.com/dngri/n/n6e61dc347ba0
