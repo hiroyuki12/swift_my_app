@@ -76,6 +76,9 @@ struct ContentView: View {
                    NavigationLink(destination: MyCordable()) {
                        Text("NavigationLink Cordable")
                    }
+                   NavigationLink(destination: MyForm()) {
+                       Text("NavigationLink Form")
+                   }
 
                }
                 
