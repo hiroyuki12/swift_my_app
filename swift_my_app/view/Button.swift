@@ -11,10 +11,13 @@ import CoreLocation
 
 struct MyButton: View {
     var body: some View {
-        Button(action: {
+//        Button(action: {
+//            print("Button Tapped")
+//        }){
+//            Text("Button")
+//        }
+        Button("Button") {
             print("Button Tapped")
-        }){
-            Text("Button")
         }
     }
 }

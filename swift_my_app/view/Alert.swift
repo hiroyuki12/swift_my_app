@@ -10,7 +10,9 @@ import SwiftUI
 import CoreLocation
 
 struct MyAlert: View {
+    
     @State var showingAlert = false
+    
     var body: some View {
         Button(action: {
             self.showingAlert = true
