@@ -36,6 +36,7 @@
 		2E7B3B44241DA3D30051A075 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B3B43241DA3D30051A075 /* HelloWorld.swift */; };
 		2E81A8CD2423D07500DA490F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8CC2423D07500DA490F /* TextField.swift */; };
 		2E81A8CF2423D18B00DA490F /* NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8CE2423D18B00DA490F /* NavigationLink.swift */; };
+		2E81A8D12423D2E700DA490F /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8D02423D2E700DA490F /* Toggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		2E7B3B43241DA3D30051A075 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 		2E81A8CC2423D07500DA490F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		2E81A8CE2423D18B00DA490F /* NavigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLink.swift; sourceTree = "<group>"; };
+		2E81A8D02423D2E700DA490F /* Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				2E2EBF98241DB5F4007780C0 /* SFSymbols.swift */,
 				2E2EBF90241DB010007780C0 /* TabView.swift */,
 				2E81A8CC2423D07500DA490F /* TextField.swift */,
+				2E81A8D02423D2E700DA490F /* Toggle.swift */,
 				2E2EBFA024210407007780C0 /* TopListView.swift */,
 				2E2EBF9A241FB2D4007780C0 /* WebView.swift */,
 			);
@@ -360,6 +363,7 @@
 				2E2EBF95241DB236007780C0 /* Button.swift in Sources */,
 				2E2EBF9F241FB70A007780C0 /* FlutterIssues.swift in Sources */,
 				2E81A8CF2423D18B00DA490F /* NavigationLink.swift in Sources */,
+				2E81A8D12423D2E700DA490F /* Toggle.swift in Sources */,
 				2E31C6862421282300BF96AB /* Codable.swift in Sources */,
 				2E349484241D108A00F45C8F /* ContentView.swift in Sources */,
 			);

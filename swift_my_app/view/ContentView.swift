@@ -82,6 +82,9 @@ struct ContentView: View {
                     NavigationLink(destination: MyTextField()) {
                         Text("TextField")
                     }
+                    NavigationLink(destination: MyToggle()) {
+                        Text("Toggle")
+                    }
                     NavigationLink(destination: TopListView()) {
                         Text("Top ListView")
                     }

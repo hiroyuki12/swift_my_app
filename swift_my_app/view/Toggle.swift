@@ -9,9 +9,14 @@
 import SwiftUI
 import CoreLocation
 
-struct HelloWorld: View {
+struct MyToggle: View {
+
+    @State var isShowing = true // toggle state
+
     var body: some View {
-           Text("Hello World!")
+        Toggle(isOn: $isShowing) {
+            Text("Hello World")
+        }
     }
 }
 
