@@ -84,4 +84,5 @@ https://note.com/dngri/n/n6d169a53529e
 SwiftUIのリストの作り方。  Section
 https://note.com/dngri/n/nb243dbd5114a?magazine_key=m39ffd3b6c431
 
-
+TextField
+https://fuckingswiftui.com/#textfield
