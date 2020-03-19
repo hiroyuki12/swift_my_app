@@ -16,72 +16,75 @@ struct ContentView: View {
             VStack{
                 Group {
                     
-                    NavigationLink(destination: FlutterIssues()) {
-                        Text("NavigationLink Flutter Issues")
-                    }
-                    NavigationLink(destination: HelloWorld()) {
-                        Text("NavigationLink HelloWorld")
-                    }
-                    NavigationLink(destination: MyImage()) {
-                        Text("NavigationLink Image")
-                    }
                     NavigationLink(destination: MyActionSheet()) {
-                        Text("NavigationLink ActionSheet")
+                        Text("ActionSheet")
                     }
                     NavigationLink(destination: MyAlert()) {
-                        Text("NavigationLink Alert")
+                        Text("Alert")
                     }
-                    NavigationLink(destination: MyTabView()) {
-                        Text("NavigationLink TabView")
+                    NavigationLink(destination: MyButton()) {
+                        Text("Button")
                     }
-                    NavigationLink(destination: MyList()) {
-                        Text("NavigationLink List")
+                    NavigationLink(destination: MyCordable()) {
+                        Text("Cordable")
                     }
-                    NavigationLink(destination: MyPicker()) {
-                        Text("NavigationLink Picker")
+                    NavigationLink(destination: DarkTheme()) {
+                        Text("DarkTheme")
                     }
+                    NavigationLink(destination: FlutterIssues()) {
+                        Text("Flutter Issues")
+                    }
+                    NavigationLink(destination: MyForm()) {
+                        Text("Form")
+                    }
+                    NavigationLink(destination: MyGeometryReader()) {
+                        Text("GeometryReader")
+                    }
+                    
                 }
                 
                 Group {
-                    NavigationLink(destination: MyButton()) {
-                        Text("NavigationLink Button")
+                    NavigationLink(destination: HelloWorld()) {
+                        Text("HelloWorld")
                     }
-                    NavigationLink(destination: SFSymbols()) {
-                        Text("NavigationLink SFSymbols")
+                    NavigationLink(destination: MyImage()) {
+                        Text("Image")
                     }
-                    NavigationLink(destination: MyWebView()) {
-                        Text("NavigationLink WebView")
-                    }
-                    NavigationLink(destination: TopListView()) {
-                        Text("NavigationLink Top ListView")
-                    }
-                    NavigationLink(destination: ModalView()) {
-                        Text("NavigationLink Modal View")
+                    NavigationLink(destination: MyList()) {
+                        Text("List")
                     }
                     NavigationLink(destination: MyMap()) {
-                        Text("NavigationLink Map")
+                        Text("Map")
                     }
-                    NavigationLink(destination: DarkTheme()) {
-                        Text("NavigationLink DarkTheme")
+                    NavigationLink(destination: ModalView()) {
+                        Text("Modal View")
                     }
-                    NavigationLink(destination: MyGeometryReader()) {
-                        Text("NavigationLink GeometryReader")
+                    NavigationLink(destination: MyPicker()) {
+                        Text("Picker")
                     }
-
+                    NavigationLink(destination: MySection()) {
+                        Text("Section")
+                    }
+                    NavigationLink(destination: SFSymbols()) {
+                        Text("SFSymbols")
+                    }
+                    
                     
                 }
 
                Group {
-
-                   NavigationLink(destination: MyCordable()) {
-                       Text("NavigationLink Cordable")
-                   }
-                   NavigationLink(destination: MyForm()) {
-                       Text("NavigationLink Form")
-                   }
-                   NavigationLink(destination: MySection()) {
-                       Text("NavigationLink Section")
-                   }
+                    NavigationLink(destination: MyTabView()) {
+                        Text("TabView")
+                    }
+                    NavigationLink(destination: MyTextField()) {
+                        Text("TextField")
+                    }
+                    NavigationLink(destination: TopListView()) {
+                        Text("Top ListView")
+                    }
+                    NavigationLink(destination: MyWebView()) {
+                        Text("WebView")
+                    }
 
                }
                 
@@ -90,7 +93,7 @@ struct ContentView: View {
         }
 //        NavigationView {
 //            NavigationLink(destination: MyAlert()) {
-//                Text("NavigationLink Alert")
+//                Text("Alert")
 //            }
 //        }
         

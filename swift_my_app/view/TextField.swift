@@ -9,12 +9,14 @@
 import SwiftUI
 import CoreLocation
 
-struct MyForm: View {
+struct MyTextField: View {
+
+    @State var name: String = "John"
+
     var body: some View {
-        Form {
-            Text("Hello")
-            Text("Goodby")
-        }
+        TextField("Name's placeholder", text: $name)
+        .textFieldStyle(RoundedBorderTextFieldStyle())
+        .padding()
     }
 }
 

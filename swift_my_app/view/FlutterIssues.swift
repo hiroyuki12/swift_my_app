@@ -9,8 +9,18 @@
 import SwiftUI
 import CoreLocation
 
+
+// Item Struct
+struct Item {
+    var title: String
+}
+
+// Array to display tableview
+    private var items: [Item] = []
+
 struct FlutterIssues: View {
     
+
     var body: some View {
         Button(action: {
             let url: URL = URL(string:  "https://api.github.com/repositories/31792824/issues")!
@@ -21,6 +31,9 @@ struct FlutterIssues: View {
                     for roop in top {
                         let next = roop as! NSDictionary
                         print(next["title"] as! String) // タイトル表示
+                            
+                        let title = next["title"] as! String
+                        items.append(Item(title: title))
                     }
                 }
                 catch{

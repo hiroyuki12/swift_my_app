@@ -34,6 +34,7 @@
 		2E349497241D108F00F45C8F /* swift_my_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E349496241D108F00F45C8F /* swift_my_appTests.swift */; };
 		2E3494A2241D108F00F45C8F /* swift_my_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3494A1241D108F00F45C8F /* swift_my_appUITests.swift */; };
 		2E7B3B44241DA3D30051A075 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B3B43241DA3D30051A075 /* HelloWorld.swift */; };
+		2E81A8CD2423D07500DA490F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8CC2423D07500DA490F /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		2E3494A1241D108F00F45C8F /* swift_my_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_my_appUITests.swift; sourceTree = "<group>"; };
 		2E3494A3241D108F00F45C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7B3B43241DA3D30051A075 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		2E81A8CC2423D07500DA490F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				2E31C6852421282300BF96AB /* Codable.swift */,
 				2E2EBFAA242117F2007780C0 /* DarkTheme.swift */,
 				2E31C689242130AF00BF96AB /* Form.swift */,
+				2E2EBF9E241FB70A007780C0 /* FlutterIssues.swift */,
 				2E31C6812421226600BF96AB /* GeometryReader.swift */,
 				2E7B3B43241DA3D30051A075 /* HelloWorld.swift */,
 				2E2EBF9C241FB661007780C0 /* Image.swift */,
@@ -131,10 +134,10 @@
 				2E2EBFA824210E36007780C0 /* Map.swift */,
 				2E2EBFA2242104B3007780C0 /* ModalView.swift */,
 				2E2EBF96241DB300007780C0 /* Picker.swift */,
-				2E2EBF9E241FB70A007780C0 /* FlutterIssues.swift */,
 				2E31C68B242131D500BF96AB /* Section.swift */,
 				2E2EBF98241DB5F4007780C0 /* SFSymbols.swift */,
 				2E2EBF90241DB010007780C0 /* TabView.swift */,
+				2E81A8CC2423D07500DA490F /* TextField.swift */,
 				2E2EBFA024210407007780C0 /* TopListView.swift */,
 				2E2EBF9A241FB2D4007780C0 /* WebView.swift */,
 			);
@@ -334,6 +337,7 @@
 			files = (
 				2E2EBF8F241DAC51007780C0 /* Alert.swift in Sources */,
 				2E2EBF93241DB13C007780C0 /* List.swift in Sources */,
+				2E81A8CD2423D07500DA490F /* TextField.swift in Sources */,
 				2E2EBFA3242104B3007780C0 /* ModalView.swift in Sources */,
 				2E349480241D108A00F45C8F /* AppDelegate.swift in Sources */,
 				2E2EBFA924210E36007780C0 /* Map.swift in Sources */,
