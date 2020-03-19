@@ -86,3 +86,6 @@ https://note.com/dngri/n/nb243dbd5114a?magazine_key=m39ffd3b6c431
 
 TextField
 https://fuckingswiftui.com/#textfield
+
+NavigationLink
+https://fuckingswiftui.com/#navigationlink
