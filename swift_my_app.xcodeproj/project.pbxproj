@@ -35,6 +35,7 @@
 		2E3494A2241D108F00F45C8F /* swift_my_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3494A1241D108F00F45C8F /* swift_my_appUITests.swift */; };
 		2E7B3B44241DA3D30051A075 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B3B43241DA3D30051A075 /* HelloWorld.swift */; };
 		2E81A8CD2423D07500DA490F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8CC2423D07500DA490F /* TextField.swift */; };
+		2E81A8CF2423D18B00DA490F /* NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8CE2423D18B00DA490F /* NavigationLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		2E3494A3241D108F00F45C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7B3B43241DA3D30051A075 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 		2E81A8CC2423D07500DA490F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		2E81A8CE2423D18B00DA490F /* NavigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				2E2EBF92241DB13C007780C0 /* List.swift */,
 				2E2EBFA824210E36007780C0 /* Map.swift */,
 				2E2EBFA2242104B3007780C0 /* ModalView.swift */,
+				2E81A8CE2423D18B00DA490F /* NavigationLink.swift */,
 				2E2EBF96241DB300007780C0 /* Picker.swift */,
 				2E31C68B242131D500BF96AB /* Section.swift */,
 				2E2EBF98241DB5F4007780C0 /* SFSymbols.swift */,
@@ -356,6 +359,7 @@
 				2E2EBF9B241FB2D4007780C0 /* WebView.swift in Sources */,
 				2E2EBF95241DB236007780C0 /* Button.swift in Sources */,
 				2E2EBF9F241FB70A007780C0 /* FlutterIssues.swift in Sources */,
+				2E81A8CF2423D18B00DA490F /* NavigationLink.swift in Sources */,
 				2E31C6862421282300BF96AB /* Codable.swift in Sources */,
 				2E349484241D108A00F45C8F /* ContentView.swift in Sources */,
 			);

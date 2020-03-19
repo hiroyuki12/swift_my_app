@@ -59,6 +59,9 @@ struct ContentView: View {
                     NavigationLink(destination: ModalView()) {
                         Text("Modal View")
                     }
+                    NavigationLink(destination: MyNavigationLink()) {
+                        Text("NavigationLink")
+                    }
                     NavigationLink(destination: MyPicker()) {
                         Text("Picker")
                     }
