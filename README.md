@@ -95,3 +95,6 @@ https://fuckingswiftui.com/#toggle
 
 DatePicker
 https://fuckingswiftui.com/#datepicker
+
+三項演算子の適切な使い方（条件演算子）
+https://qiita.com/smicle/items/7d3b9881834dc0142fb7
