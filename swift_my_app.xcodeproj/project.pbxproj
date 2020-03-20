@@ -38,6 +38,7 @@
 		2E81A8CF2423D18B00DA490F /* NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8CE2423D18B00DA490F /* NavigationLink.swift */; };
 		2E81A8D12423D2E700DA490F /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8D02423D2E700DA490F /* Toggle.swift */; };
 		2E81A8D32423D3EE00DA490F /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8D22423D3EE00DA490F /* DatePicker.swift */; };
+		2E81A8D5242455E400DA490F /* Devider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81A8D4242455E400DA490F /* Devider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		2E81A8CE2423D18B00DA490F /* NavigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLink.swift; sourceTree = "<group>"; };
 		2E81A8D02423D2E700DA490F /* Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toggle.swift; sourceTree = "<group>"; };
 		2E81A8D22423D3EE00DA490F /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		2E81A8D4242455E400DA490F /* Devider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,13 +127,14 @@
 		2E2EBF8B241DAA1D007780C0 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				2E81A8D22423D3EE00DA490F /* DatePicker.swift */,
 				2E349483241D108A00F45C8F /* ContentView.swift */,
 				2E2EBF8C241DAA3E007780C0 /* ActionSheet.swift */,
 				2E2EBF8E241DAC51007780C0 /* Alert.swift */,
 				2E2EBF94241DB236007780C0 /* Button.swift */,
 				2E31C6852421282300BF96AB /* Codable.swift */,
 				2E2EBFAA242117F2007780C0 /* DarkTheme.swift */,
+				2E81A8D22423D3EE00DA490F /* DatePicker.swift */,
+				2E81A8D4242455E400DA490F /* Devider.swift */,
 				2E31C689242130AF00BF96AB /* Form.swift */,
 				2E2EBF9E241FB70A007780C0 /* FlutterIssues.swift */,
 				2E31C6812421226600BF96AB /* GeometryReader.swift */,
@@ -347,6 +350,7 @@
 				2E2EBF8F241DAC51007780C0 /* Alert.swift in Sources */,
 				2E2EBF93241DB13C007780C0 /* List.swift in Sources */,
 				2E81A8CD2423D07500DA490F /* TextField.swift in Sources */,
+				2E81A8D5242455E400DA490F /* Devider.swift in Sources */,
 				2E2EBFA3242104B3007780C0 /* ModalView.swift in Sources */,
 				2E349480241D108A00F45C8F /* AppDelegate.swift in Sources */,
 				2E2EBFA924210E36007780C0 /* Map.swift in Sources */,

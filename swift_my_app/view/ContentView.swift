@@ -34,6 +34,9 @@ struct ContentView: View {
                     NavigationLink(destination: MyDatePicker()) {
                         Text("DatePicker")
                     }
+                    NavigationLink(destination: MyDivider()) {
+                        Text("Divider")
+                    }
                     NavigationLink(destination: FlutterIssues()) {
                         Text("Flutter Issues")
                     }
